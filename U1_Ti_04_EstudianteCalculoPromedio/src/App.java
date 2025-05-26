@@ -1,5 +1,5 @@
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Estudiante[] estudiantes = new Estudiante[5];
 
         for (int i = 0; i < estudiantes.length; i++) {
