@@ -1,5 +1,3 @@
-
-
 import Model.Square;
 import Model.Triangle;
 import Model.Circle;
@@ -17,7 +15,6 @@ public class App {
        // System.out.println(sq.getPerimeter());
         System.out.println(sq.getArea());
 
-
         Triangle tr = new Triangle();
         tr.setLado(8);
         tr.setBase(2);
@@ -28,8 +25,6 @@ public class App {
         System.out.print("Area: ");
         System.out.println(tr.getArea());
         
-
-
         Circle ci = new Circle();
         ci.setRadio(5);
         System.out.println("\nCirculo ");
@@ -37,7 +32,6 @@ public class App {
         System.out.println(ci.getCircumference());
         System.out.print("Area: ");
         System.out.println(ci.getArea());
-
 
 }
 }
