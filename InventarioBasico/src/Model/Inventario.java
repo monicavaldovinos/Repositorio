@@ -23,7 +23,6 @@ public class Inventario {
         }
         return false;
     }
-
     public Producto buscar(String codigo) {
         for (int i = 0; i < stock.length; i++) {
             if (stock[i] != null && stock[i].getCodigo().equals(codigo)) {
@@ -32,7 +31,6 @@ public class Inventario {
         }
         return null;
     }
-
     public int totalItems() {
         int total = 0;
         for (int i = 0; i < stock.length; i++) {
@@ -40,6 +38,6 @@ public class Inventario {
                 total += stock[i].getCantidad();
             }
         }
-        return total;
+        return total;m 
     }
 }

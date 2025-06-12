@@ -40,7 +40,7 @@ public class HelloApplication extends Application {
                 System.out.println("todos los campos son obligatorios");
                 lblResultado.setText("Todos los campos son obligatorios");
             }else{
-                lblResultado.setText("Resultado: " + nombre + "\nEdad: " + edad + "\nOpciones: " + seleccion);
+                lblResultado.setText("Nombre: " + nombre + "\nEdad: " + edad + "\nOpciones: " + seleccion);
                 lblResultado.setStyle("-fx-text-fill: green; -fx-font-weight: bold;");
 
             }
